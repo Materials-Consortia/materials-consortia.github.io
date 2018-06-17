@@ -30,3 +30,6 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Computational Materials Repository](http://cmr.fysik.dtu.dk/)
 - [the Data Catalyst Genome](http://suncat.stanford.edu/)
 - ...
+
+The OPTiMaDe consortium aims to make these datbases interoperational by
+developing a common REST API.
