@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#logo img { 
+    width: 98%;
+}
