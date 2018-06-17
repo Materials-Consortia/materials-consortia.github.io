@@ -1,0 +1,6 @@
+baseurl: ""
+url: "https://materials-consortia.github.io/"
+theme: jekyll-theme-slate
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
