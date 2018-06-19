@@ -1,8 +1,5 @@
 # About us
 
-The **Open Databases Integration for Materials Design** (OPTiMaDe) consortium
-aims to make materials datbases interoperational by developing a common REST API.
-
 Designing new materials suitable for specific applications is a long,
 complex, and costly process. Researchers think of new ideas based on
 intuition and experience. Their synthesis and evaluation require a
@@ -25,5 +22,6 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Data Catalyst Genome](http://suncat.stanford.edu/)
 - ...
 
-The OPTiMaDe consortium aims to make these datbases interoperational by
-developing a common REST API.
+The **Open Databases Integration for Materials Design** (OPTiMaDe) consortium
+aims to make materials datbases interoperational by developing a common REST API.
+
