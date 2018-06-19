@@ -1,6 +1,6 @@
 # OPTiMaDe Web Site
 
-This folder contains the source code for the [OPTiMaDe website](www.optimade.org).
+This folder contains the source code for the [OPTiMaDe website](http://www.optimade.org).
 
 ## Local testing
 

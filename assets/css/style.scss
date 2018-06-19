@@ -2,36 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-img {
-  position: relative;
-  vertical-align: middle;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 0px;
-  margin: 0px;
-  border: 0px solid #ffffff;
-  box-shadow: 0 0 0px #ffffff;
-  -webkit-box-shadow: 0 0 0px #ffffff;
-  -moz-box-shadow: 0 0 0px #ffffff;
-  -o-box-shadow: 0 0 0px #ffffff;
-  -ms-box-shadow: 0 0 0px #ffffff;
-}
-.menu {
-  position: relative;
-  top: 0px;
-  font-weight: bold;
-  font-size: 120%;
-}
-.menu a {
-  text-decoration: none;
-  vertical-align: middle;
-  color: black;
-  background-color: white;
-  padding: 10px 15px 10px 15px;
-}
-.menu a:hover {
-  background-color: #aabbff;
-}
+
 #logo img { 
     width: 98%;
 }
