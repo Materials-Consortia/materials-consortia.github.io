@@ -1,13 +1,7 @@
-# OPTiMaDe
+# About us
+
 The **Open Databases Integration for Materials Design** (OPTiMaDe) consortium
 aims to make materials datbases interoperational by developing a common REST API.
-
-- [About us](/)
-- [The API Specification](https://github.com/Materials-Consortia/OPTiMaDe/blob/master/optimade.md)
-- [List of contributors](https://github.com/Materials-Consortia/OPTiMaDe/blob/master/AUTHORS)
-- [OPTiMaDe Wiki](https://github.com/Materials-Consortia/OPTiMaDe/wiki)
-
-## About us
 
 Designing new materials suitable for specific applications is a long,
 complex, and costly process. Researchers think of new ideas based on

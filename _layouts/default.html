@@ -14,35 +14,33 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-
-            <!-- <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-            <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-            -->
 
             <div id="logo">
-            <ul id="lightSlider">
-                <li>
-                    <img src="assets/images/slide-image-1.jpg">
-                </li>
-                <li>
-                    <img src="assets/images/slide-image-2.jpg">
-                </li>
-                <li>
-                    <img src="assets/images/slide-image-3.jpg">
-                </li>
-                <li>
-                    <img src="assets/images/slide-image-4.jpg">
-                </li>
-            </ul>
+                <ul id="lightSlider">
+                    <li>
+                        <img src="assets/images/slide-image-1.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/slide-image-2.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/slide-image-3.jpg">
+                    </li>
+                    <li>
+                        <img src="assets/images/slide-image-4.jpg">
+                    </li>
+                </ul>
             </div>
+            <br>
+            <div class="menu">
+        	<a href="/"><img src="/assets/images/home.png" height="18px"></a>
+                <a href="https://github.com/Materials-Consortia/OPTiMaDe/blob/master/optimade.md">API Specification</a>
+                <a href="https://github.com/Materials-Consortia/OPTiMaDe/blob/master/AUTHORS">List of contributors</a>
+                <a href="https://github.com/Materials-Consortia/OPTiMaDe/wiki">Wiki</a>
+            	<a href="https://github.com/Materials-Consortia/">GitHub Repo
+                    <img src="/assets/images/blacktocat.png" height="20px"></a>
+       	    </div>
 
-            {% if site.show_downloads %}
-            <section id="downloads">
-                <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-                <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-            {% endif %}
         </header>
     </div>
 
@@ -57,9 +55,8 @@
     <div id="footer_wrap" class="outer">
         <footer class="inner">
             {% if site.github.is_project_page %}
-            <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            <p>Published with <a href="https://pages.github.com">GitHub Pages</a>; maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
             {% endif %}
-            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
         </footer>
     </div>
 
