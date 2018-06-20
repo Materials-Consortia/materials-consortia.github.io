@@ -18,16 +18,19 @@ img {
 }
 .menu {
   position: relative;
+  margin: 0 auto;
+  max-width: 739px;
   top: 0px;
+  text-align: center;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 100%;
 }
 .menu a {
   text-decoration: none;
   vertical-align: middle;
   color: black;
   background-color: white;
-  padding: 10px 15px 10px 15px;
+  padding: 8px 15px 8px 15px;
 }
 .menu a:hover {
   background-color: #aabbff;
