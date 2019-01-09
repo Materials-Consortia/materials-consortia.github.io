@@ -23,5 +23,5 @@ existing and hypothetical materials, many of which have appeared online:
 - ...
 
 The **Open Databases Integration for Materials Design** (OPTiMaDe) consortium
-aims to make materials datbases interoperational by developing a common REST API.
+aims to make materials databases interoperational by developing a common REST API.
 
