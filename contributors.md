@@ -6,7 +6,7 @@ Design"
 ([1](http://www.lorentzcenter.nl/lc/web/2016/826/info.php3?wsid=826&venue=Snellius){:target="_blank"},[2](http://www.cecam.org/workshop-1525.html){:target="_blank"})
 held at:
 - the Lorentz Center in Leiden, Netherlands from 2016-10-24 to 2016-10-28
-- the CECAM in Lausanne, Switzerland from 2018-06-11 to 2018-06-14
+- the CECAM in Lausanne, Switzerland from 2018-06-11 to 2018-06-15
 
 In alphabetical order:
 
