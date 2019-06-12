@@ -1,3 +1,5 @@
+See the [github repository](https://github.com/Materials-Consortia/OPTiMaDe) for the most up-to-date specification.
+
 # OPTIMADE API specification v0.9.5
 
 [1. Introduction](#h.1) 
