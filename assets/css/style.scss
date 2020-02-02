@@ -38,7 +38,11 @@ img {
 #logo img { 
     width: 98%;
 }
-#header_wrap.outer div {
-    background-color:rgba(235, 235, 235, 0.69);
-    background-image:linear-gradient(90deg, rgba(235, 235, 235, 0.69) 0%, rgba(255, 255, 255, 1) 99%);
+#header_wrap div {
+  background: #F5F5F5;
+  background: -moz-linear-gradient(top, #EBEBEB, #FFFFFF);
+  background: -webkit-linear-gradient(top, #EBEBEB, #FFFFFF);
+  background: -ms-linear-gradient(top, #EBEBEB, #FFFFFF);
+  background: -o-linear-gradient(top, #EBEBEB, #FFFFFF);
+  background: linear-gradient(to top, #EBEBEB, #FFFFFF);
 }
