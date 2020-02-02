@@ -17,7 +17,16 @@ img {
   -ms-box-shadow: 0 0 0px #ffffff;
 }
 .menu {
-  -webkit-box-align: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 739px;
+  top: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+}
+.menu a {
+-webkit-box-align: center;
   -webkit-box-pack: center;
   -webkit-user-drag: none;
   align-items: center;
@@ -47,13 +56,6 @@ img {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-}
-.menu a {
-  text-decoration: none;
-  vertical-align: middle;
-  color: black;
-  background-color: white;
-  padding: 8px 15px 8px 15px;
 }
 .menu a:hover {
   background-color: #aabbff;
