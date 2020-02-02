@@ -38,11 +38,12 @@ img {
 #logo img { 
     width: 98%;
 }
-#header_wrap div {
+#header_wrap .outer div {
   background: #F5F5F5;
   background: -moz-linear-gradient(top, #EBEBEB, #FFFFFF);
   background: -webkit-linear-gradient(top, #EBEBEB, #FFFFFF);
   background: -ms-linear-gradient(top, #EBEBEB, #FFFFFF);
   background: -o-linear-gradient(top, #EBEBEB, #FFFFFF);
   background: linear-gradient(to top, #EBEBEB, #FFFFFF);
+  background-image: linear-gradient(to top, #EBEBEB, #FFFFFF);
 }
