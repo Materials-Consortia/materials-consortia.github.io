@@ -39,11 +39,11 @@ img {
     width: 98%;
 }
 #header_wrap {
-  background: #F5F5F5;
-  background: -moz-linear-gradient(top, #EBEBEB, #FFFFFF);
-  background: -webkit-linear-gradient(top, #EBEBEB, #FFFFFF);
-  background: -ms-linear-gradient(top, #EBEBEB, #FFFFFF);
-  background: -o-linear-gradient(top, #EBEBEB, #FFFFFF);
-  background: linear-gradient(to top, #EBEBEB, #FFFFFF);
-  background-image: linear-gradient(to top, #EBEBEB, #FFFFFF);
+  background: #F5F5F5 !important;
+  background: -moz-linear-gradient(top, #EBEBEB, #FFFFFF) !important;
+  background: -webkit-linear-gradient(top, #EBEBEB, #FFFFFF) !important;
+  background: -ms-linear-gradient(top, #EBEBEB, #FFFFFF) !important;
+  background: -o-linear-gradient(top, #EBEBEB, #FFFFFF) !important;
+  background: linear-gradient(to top, #EBEBEB, #FFFFFF) !important;
+  background-image: linear-gradient(to top, #EBEBEB, #FFFFFF) !important;
 }
