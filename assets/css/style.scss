@@ -33,11 +33,11 @@ img {
   backface-visibility: hidden;
   background-color: transparent;
   background-image: none;
-  border: 2px solid #05cab6;
+  border: 2px solid #5e00c6;
   border-radius: 8px;
   box-shadow: none;
   box-sizing: border-box;
-  color: #05cab6;
+  color: #000000;
   cursor: pointer;
   display: inline-flex;
   flex-direction: row-reverse;
@@ -58,7 +58,7 @@ img {
   white-space: nowrap;
 }
 .menu a:hover {
-  background-color: #aabbff;
+  background-color: #F0F0F0;
 }
 #logo img { 
     width: 98%;
