@@ -63,12 +63,10 @@ img {
 #logo img { 
     width: 98%;
 }
+#main_content_wrap {
+    border: 0pt;
+}
+
 #header_wrap {
-  background: #F5F5F5 !important;
-  background: -moz-linear-gradient(top, #F5F5F5, #FFFFFF) !important;
-  background: -webkit-linear-gradient(top, #F5F5F5, #FFFFFF) !important;
-  background: -ms-linear-gradient(top, #F5F5F5, #FFFFFF) !important;
-  background: -o-linear-gradient(top, #F5F5F5, #FFFFFF) !important;
-  background: linear-gradient(to top, #F5F5F5, #FFFFFF) !important;
-  background-image: linear-gradient(to top, #F5F5F5, #FFFFFF) !important;
+  background: #FFFFFF !important;
 }
