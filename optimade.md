@@ -1,7 +1,7 @@
 # OPTiMaDe API Specification
 
-**The latest _stable_ version** is found in the [master](https://github.com/Materials-Consortia/OPTiMaDe/tree/master/optimade.md){:target="_blank"} branch in the GitHub repository.  
-**The latest _development_ version** is found in the [develop](https://github.com/Materials-Consortia/OPTiMaDe/tree/develop/optimade.md){:target="_blank"} branch of the same repository.
+**The latest _stable_ version** is found in the [master](https://github.com/Materials-Consortia/OPTiMaDe/tree/master/optimade.rst){:target="_blank"} branch in the GitHub repository.  
+**The latest _development_ version** is found in the [develop](https://github.com/Materials-Consortia/OPTiMaDe/tree/develop/optimade.rst){:target="_blank"} branch of the same repository.
 
 If you are a **server** developer, it is _recommended_ to always implement the latest stable version.
 It is also _recommended_ to implement the latest version in development.
