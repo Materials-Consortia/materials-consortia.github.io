@@ -22,6 +22,6 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Data Catalyst Genome](http://suncat.stanford.edu/)
 - ...
 
-The **Open Databases Integration for Materials Design** (OPTiMaDe) consortium
+The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
 aims to make materials databases interoperational by developing a common REST API.
 

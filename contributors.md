@@ -1,6 +1,6 @@
 # Contributors
 
-The initial release of the OPTiMaDe API was developed by the participants of the workshops "Open Databases Integration for Materials Design"
+The initial release of the OPTIMADE API was developed by the participants of the workshops "Open Databases Integration for Materials Design"
 ([1](http://www.lorentzcenter.nl/lc/web/2016/826/info.php3?wsid=826&venue=Snellius){:target="_blank"},[2](http://www.cecam.org/workshop-1525.html){:target="_blank"})
 held at:
 
