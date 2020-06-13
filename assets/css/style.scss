@@ -31,13 +31,13 @@ img {
   -webkit-user-drag: none;
   align-items: center;
   backface-visibility: hidden;
-  background-color: transparent;
+  background-color: #5e00c6;
   background-image: none;
   border: 2px solid #5e00c6;
   border-radius: 8px;
   box-shadow: none;
   box-sizing: border-box;
-  color: #5e00c6;
+  color: #ffffff;
   cursor: pointer;
   display: inline-flex;
   flex-direction: row-reverse;
@@ -59,7 +59,8 @@ img {
   margin-bottom: 5px;
 }
 .menu a:hover {
-  background-color: #F0F0F0;
+    background-color: #f0f0f0;
+    color: #000000;
 }
 #logo img { 
     width: 98%;
