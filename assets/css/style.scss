@@ -61,8 +61,10 @@ img {
     background-color: #f0f0f0;
     color: #000000;
 }
-#logo img { 
-    width: 98%;
+#logo img {
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
 }
 #main_content_wrap {
     border: 0pt;
@@ -70,4 +72,8 @@ img {
 
 #header_wrap {
   background: #FFFFFF !important;
+}
+
+.inner header {
+    max-width: none;
 }
