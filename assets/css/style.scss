@@ -72,8 +72,6 @@ img {
 
 #header_wrap {
   background: #FFFFFF !important;
+  max-width: none !important;
 }
 
-#header_wrap .inner header {
-    max-width: none;
-}
