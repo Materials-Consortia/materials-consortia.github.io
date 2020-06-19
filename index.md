@@ -20,6 +20,7 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Open Quantum Materials Database](http://oqmd.org/)
 - [the Computational Materials Repository](http://cmr.fysik.dtu.dk/)
 - [the Data Catalyst Genome](http://suncat.stanford.edu/)
+- [the Materials Platform for Data Science](http://mpds.io/)
 - ...
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
