@@ -21,6 +21,7 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Computational Materials Repository](http://cmr.fysik.dtu.dk/)
 - [the Data Catalyst Genome](http://suncat.stanford.edu/)
 - [the Materials Platform for Data Science](http://mpds.io/)
+- [the Joint Automated Repository for Various Integrated Simulations](https://jarvis.nist.gov)
 - ...
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
