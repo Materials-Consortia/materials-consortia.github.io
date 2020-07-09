@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, Roboto, sans-serif;
+}
+
 img {
   position: relative;
   vertical-align: middle;
@@ -41,7 +46,6 @@ img {
   display: inline-flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  font-family: Overpass,sans-serif;
   font-size: 15px;
   font-weight: 700;
   justify-content: center;
