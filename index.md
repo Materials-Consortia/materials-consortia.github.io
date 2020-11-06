@@ -29,4 +29,4 @@ existing and hypothetical materials, many of which have appeared online:
 
 Should you wish to cite the OPTIMADE specification, please use
 
-> Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195051](http://doi.org/10.5281/zenodo.4195051)
+> Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050)
