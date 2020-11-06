@@ -1,5 +1,8 @@
 # About us
 
+The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
+aims to make materials databases interoperational by developing a common REST API.
+
 Designing new materials suitable for specific applications is a long,
 complex, and costly process. Researchers think of new ideas based on
 intuition and experience. Their synthesis and evaluation require a
@@ -24,6 +27,6 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Joint Automated Repository for Various Integrated Simulations](https://jarvis.nist.gov)
 - ...
 
-The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
-aims to make materials databases interoperational by developing a common REST API.
+Should you wish to cite the OPTIMADE specification, please use
 
+> Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195051](http://doi.org/10.5281/zenodo.4195051)
