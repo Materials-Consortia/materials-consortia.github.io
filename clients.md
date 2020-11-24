@@ -16,7 +16,7 @@ Note, this is the default location and may not be where the OpenAPI specificatio
 
 ## MaterialsCloud Tool
 
-An [open-source](https://github.com/CasperWA/voila-optimade-client){target=_blank} web and local executable client developed by [Casper W. Andersen (THEOS, EPFL)](https://casper.welzel.nu){target=_blank} using [Voilà](https://voila.readthedocs.io){:target=_blank} is available on [MaterialsCloud](https://materialscloud.org){:target=_blank}.
+An [open-source](https://github.com/CasperWA/voila-optimade-client){:target=_blank} web and local executable client developed by [Casper W. Andersen (THEOS, EPFL)](https://casper.welzel.nu){:target=_blank} using [Voilà](https://voila.readthedocs.io){:target=_blank} is available on [MaterialsCloud](https://materialscloud.org){:target=_blank}.
 It allows for searching through OPTIMADE databases, filtering on the structure property fields defined in the [OPTIMADE API specification](optimade), and inspect and download found structures in various file formats (CIF, PDB, VASP POSCAR, XYZ, Quantum ESPRESSO input, and more) utilizing the adapters from the Python [`optimade`](https://pypi.org/project/optimade/){:target=_blank} package in the [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools){:target=_blank} repository.
 
 The filtering can be done either using the OPTIMADE filter language (see the specification for more information) directly, or one can use the friendly filtering widgets (default).
