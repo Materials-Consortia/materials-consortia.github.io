@@ -22,10 +22,3 @@ It allows for searching through OPTIMADE databases, filtering on the structure p
 The filtering can be done either using the OPTIMADE filter language (see the specification for more information) directly, or one can use the friendly filtering widgets (default).
 
 **Try this**: [materialscloud.org/optimadeclient](https://materialscloud.org/optimadeclient){:target=_blank}
-
-## optimade.science
-
-An [open-source](https://github.com/tilde-lab/optimade.science){:target=_blank} web client developed by [Evgeny Blokhin](https://tilde.pro){:target=_blank} utilizing [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){:target=_blank} is available.
-It allows for searching through _multiple_ OPTIMADE databases using the OPTIMADE filter language (see the specification for more information) and the power of CORS.
-
-**Try this**: [optimade.science](https://optimade.science){:target=_blank}
