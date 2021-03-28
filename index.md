@@ -27,6 +27,7 @@ existing and hypothetical materials, many of which have appeared online:
 - [the Joint Automated Repository for Various Integrated Simulations](https://jarvis.nist.gov)
 - ...
 
-Should you wish to cite the OPTIMADE specification, please use
+Should you wish to cite the OPTIMADE specification, please use the following:
 
-> Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050)
+- Andersen *et al*, OPTIMADE: an API for exchanging materials data (2021) [arXiv:2103.02068](https://arxiv.org/abs/2103.02068){:target=_blank}
+- Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050){:target=blank}

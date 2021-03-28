@@ -65,6 +65,18 @@ img {
     background-color: #e75254;
     border: 2px solid #e75254;
 }
+
+.menu .special_menu a {
+    background-color: #00acd9;
+    border: 2px solid #00acd9;
+    display: inline-flex;
+}
+
+.menu .special_menu a:hover {
+    background-color: #e75254;
+    border: 2px solid #e75254;
+}
+
 #logo img {
     max-width: 640px;
     width: 100%;
