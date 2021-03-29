@@ -11,8 +11,6 @@ Note, this is the default location and may not be where the OpenAPI specificatio
 **Try this**:
 
 - [Open Database of Crystals (ODBX)](https://petstore.swagger.io/?url=https://optimade.odbx.science/v1/extensions/openapi.json){:target=_blank}
-- [The Materials Project](https://petstore.swagger.io/?url=https://optimade.materialsproject.org/v1/extensions/openapi.json){:target=_blank}
-- [Materials Cloud (sample DB)](https://petstore.swagger.io/?url=https://aiida-dev.materialscloud.org/optimade-sample/optimade/v1/extensions/openapi.json){:target=_blank}
 
 ## Materials Cloud Tool
 
