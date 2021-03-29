@@ -5,9 +5,11 @@ This folder contains the source code for the [OPTIMADE website](http://www.optim
 ## Local testing
 
 For local testing, make sure you have ruby installed and do
-```
+
+```console
 gem install bundler
 bundle install   # or: bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
-See [these instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)  for more information.
+
+See [these instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for more information.
