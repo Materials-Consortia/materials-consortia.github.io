@@ -1,3 +1,8 @@
+---
+title: OPTIMADE
+next_meeting: next_meeting.html
+---
+
 # About us
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium
@@ -40,8 +45,8 @@ implementations and hear your feedback on the specification.
 We meet monthly in the "OPTIMADE" room on Jitsi; everyone is welcome to
 join the discussion, please feel free to reach out on the mailing list
 `dev[at]optimade.org` to register your interest.
-The next meeting will take place on
-[Friday April 23rd at 15:00 UTC](https://www.worldtimebuddy.com/?pl=1&lid=2643743,5128581,5391959,2950159&h=2643743&date=4/23/2021%7C3&hf=1){:target=_blank}.
+The next meeting will take place on {% include {{ page.next_meeting }} %}.
+
 
 With the support of [CECAM](www.cecam.org){:target=_blank}, we hold annual
 workshops to discuss and develop the specification and related ideas.
