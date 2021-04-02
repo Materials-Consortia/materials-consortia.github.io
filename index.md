@@ -29,7 +29,7 @@ Should you wish to cite the OPTIMADE specification, please use the following:
 
 ## Get involved
 
-All of our work is openly available under the [Materials-Consortia](https://github.com/Materials-Consortia/){:target="_blank"} organization on GitHub and welcome all contributions.
+All of our work is openly available under the [Materials-Consortia](https://github.com/Materials-Consortia/){:target="_blank"} organization on GitHub and we welcome all contributions.
 
 We would love to help you create and register your own OPTIMADE API implementations and hear your feedback on the specification.
 We meet monthly in the "OPTIMADE" room on Jitsi; everyone is welcome to join the discussion, please feel free to reach out on the mailing list
