@@ -36,5 +36,5 @@ We meet monthly in the "OPTIMADE" room on Jitsi; everyone is welcome to join the
 `dev[at]optimade.org` to register your interest.
 The next meeting will take place on {% include {{ page.next_meeting }} %}.
 
-With the support of [CECAM](www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
+With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
 The 2021 workshop will be held virtually and the announcement will appear on the CECAM website soon.
