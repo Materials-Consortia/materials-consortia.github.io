@@ -39,3 +39,8 @@ The next meeting will take place on {% include {{ page.next_meeting }} %}.
 With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
 The 2021 workshop will be held virtually between June 7th and June 11th, with sessions accommodating multiple timezones.
 The workshop advert and sign-up can be found on the [CECAM website](https://www.cecam.org/workshop-details/52){:target="_blank"}.
+
+**OMDI2021**: Related to the central OPTIMADE efforts, the *Workshop on Ontologies for Materials-Databases Interoperability 2021* is being held at Linköping University, Sweden at October 5-7, 2021.
+The workshop will be held partially online.
+To read more about the workshop go to [the workshop site](omdi2021) or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
+To **register** go [here](https://forms.office.com/Pages/ResponsePage.aspx?id=7Bg_kSZ_X0yoFnhP6aWO3WJBgpGBIKdFh8b1GjAYgoBUQkVOUEwwRUhKRjFDMDNNSUowSk5LRVJXNi4u){:target="_blank"}.
