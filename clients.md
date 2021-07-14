@@ -23,7 +23,7 @@ The filtering can be done either using the OPTIMADE filter language (see the spe
 
 ## optimade.science
 
-An [open-source](https://github.com/tilde-lab/optimade.science){:target="_blank"} web client developed by [Tilde MI](https://tilde.pro){:target="_blank"} utilizing the [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){:target="_blank"} is available as a single universal `index.html` file. Can be run from server, USB-stick, etc.
-It allows for searching through *multiple* OPTIMADE databases using the OPTIMADE filter language (see the specification for more information).
+An [open-source](https://github.com/tilde-lab/optimade.science){:target="_blank"} web client developed by [Tilde MI](https://tilde.pro){:target="_blank"} utilizing the [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){:target="_blank"} is available as a single universal `index.html` file. Can be run from the server, USB-stick, etc.
+It allows for searching through *all* the known OPTIMADE databases *simultaneously* using the OPTIMADE filter language (see the specification for more information).
 
 **Try this**: [optimade.science](https://optimade.science){:target="_blank"}
