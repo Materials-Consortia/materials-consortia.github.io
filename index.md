@@ -24,8 +24,8 @@ A full list is available on the [OPTIMADE providers dashboard](https://www.optim
 
 Should you wish to cite the OPTIMADE specification, please use the following:
 
-- Andersen *et al*, OPTIMADE: an API for exchanging materials data (2021) [arXiv:2103.02068](https://arxiv.org/abs/2103.02068){:target="_blank"}
-- Andersen *et al*, The OPTIMADE Specification, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050){:target="_blank"}
+- Andersen *et al*, OPTIMADE, an API for exchanging materials data, *Sci.  Data* **8**, 217 (2021) [10.1038/s41597-021-00974-z](https://doi.org/10.1038/s41597-021-00974-z){:target="_blank"}
+- Andersen *et al*, The OPTIMADE Specification, *Zenodo*, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050){:target="_blank"}
 
 ## Get involved
 
