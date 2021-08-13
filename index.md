@@ -39,7 +39,7 @@ We meet monthly in the "OPTIMADE" room on Jitsi; everyone is welcome to join the
 `dev[at]optimade.org` to register your interest.
 The next meeting will take place on {% include {{ page.next_meeting }} %}.
 
-On the 7th and 8th of September 2021, there is a tutorial on how to use the Optimade API.
+On the 7th and 8th of September 2021, there will be an online tutorial on how to use the OPTIMADE API.
 It will feature hands-on sessions on creating queries and analyzing the server responses. 
 The tutorial is part of the [NOMAD Virtual Tutorial Series](https://th.fhi-berlin.mpg.de/meetings/nomad-tutorials/).
 More information can be found via this [link](https://th.fhi-berlin.mpg.de/meetings/nomad-tutorials/index.php?n=Meeting.Tutorial6).
