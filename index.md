@@ -27,6 +27,10 @@ Should you wish to cite the OPTIMADE specification, please use the following:
 - Andersen *et al*, OPTIMADE, an API for exchanging materials data, *Sci.  Data* **8**, 217 (2021) [10.1038/s41597-021-00974-z](https://doi.org/10.1038/s41597-021-00974-z){:target="_blank"}
 - Andersen *et al*, The OPTIMADE Specification, *Zenodo*, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050){:target="_blank"}
 
+If you use the `optimade-python-tools` to access or serve OPTIMADE APIs, please consider citing the following:
+
+- Evans *et al*, optimade-python-tools: A Python library for serving and consuming materials data via OPTIMADE APIs, *Journal of Open Source Software*, **6** (65), 3458 (2021), [10.21105/joss.03458](https://doi.org/10.21105/joss.03458)
+
 ## Get involved
 
 All of our work is openly available under the [Materials-Consortia](https://github.com/Materials-Consortia/){:target="_blank"} organization on GitHub and we welcome all contributions.
