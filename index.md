@@ -48,5 +48,4 @@ The latest 2021 workshop was held virtually between June 7th and June 11th, with
 
 **OMDI2021**: Related to the central OPTIMADE efforts, the *Workshop on Ontologies for Materials-Databases Interoperability 2021* is being held at Linköping University, Sweden at **October 5-7, 2021**.
 The workshop will be held partially online.  
-To read more about **OMDI2021** go to [the workshop site](omdi2021) or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.  
-To **register** go [here](https://forms.office.com/Pages/ResponsePage.aspx?id=7Bg_kSZ_X0yoFnhP6aWO3WJBgpGBIKdFh8b1GjAYgoBUQkVOUEwwRUhKRjFDMDNNSUowSk5LRVJXNi4u){:target="_blank"}.
+To read more about **OMDI2021** go to [the workshop site](omdi2021) or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
