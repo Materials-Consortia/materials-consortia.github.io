@@ -7,6 +7,13 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, Roboto, sans-serif;
 }
 
+announcement {
+  font-size: 1.2em;
+  border: 2px solid #e75254;
+  background-color: lightgrey;
+}
+
+
 img {
   position: relative;
   vertical-align: middle;
@@ -21,6 +28,7 @@ img {
   -o-box-shadow: 0 0 0px #ffffff;
   -ms-box-shadow: 0 0 0px #ffffff;
 }
+
 .menu {
   position: relative;
   margin: 0 auto;
