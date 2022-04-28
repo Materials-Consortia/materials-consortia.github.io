@@ -3,6 +3,12 @@ title: OPTIMADE
 next_meeting: next_meeting.html
 ---
 
+**[Registration for the annual hybrid workshop is now open](https://www.cecam.org/workshop-details/1120)**
+
+The next annual CECAM OPTIMADE Workshop will take place on May 30th-June 3rd 2022 at CECAM-HQ-EPFL in Lausanne, Switzerland, and remotely online.
+The workshop will consist of presentations, tutorials, discussion and hands-on implementation sessions.
+Please see the [CECAM workshop page](https://www.cecam.org/workshop-details/1120) for more information and registration details.
+
 # About us
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API.
