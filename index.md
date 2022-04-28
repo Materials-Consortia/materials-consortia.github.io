@@ -4,11 +4,12 @@ next_meeting: next_meeting.html
 ---
 
 <div class="announcement">
-<a href="https://www.cecam.org/workshop-details/1120">[Registration for the annual hybrid workshop is now open]</a>
-
-The next annual CECAM OPTIMADE Workshop will take place on May 30th-June 3rd 2022 at CECAM-HQ-EPFL in Lausanne, Switzerland, and remotely online.
+<a href="https://www.cecam.org/workshop-details/1120">Registration for the annual hybrid workshop is now open</a>
+</br>
+The next annual CECAM OPTIMADE Workshop will take place on <b>May 30th-June 3rd 2022</b> at CECAM-HQ-EPFL in Lausanne, Switzerland, and remotely online.
+</br>
 The workshop will consist of presentations, tutorials, discussion and hands-on implementation sessions.
-Please see the <a href=https://www.cecam.org/workshop-details/1120>CECAM workshop page</a> for more information and registration details.
+Please see the <a href="https://www.cecam.org/workshop-details/1120">CECAM workshop page</a> for more information and registration details.
 </div>
 
 # About us
