@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Link Checker
       id: lychee
-      uses: lycheeverse/lychee-action@v1.0.8
+      uses: lycheeverse/lychee-action@v1
       with:
         args: --verbose --no-progress **/*.md **/*.html --exclude file://*
 
@@ -27,7 +27,7 @@ jobs:
 
     - name: Create Issue
       if: ${{ github.event_name != 'pull_request' }}
-      uses: peter-evans/create-issue-from-file@v2
+      uses: peter-evans/create-issue-from-file@v4
       with:
         title: Dead links detected
         content-filepath: ./lychee/out.md
