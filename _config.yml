@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://materials-consortia.github.io/"
+url: "https://optimade.org"
 theme: jekyll-theme-slate
 markdown: kramdown
 plugins:
