@@ -41,7 +41,7 @@ We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`
 The next meeting will take place on {% include {{ page.next_meeting }} %}.
 
 Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
-If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-rf1kjcxj-gpFfJH0WnAkafWMrxz4paA).
+If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
 
 With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
 The latest 2021 workshop was held virtually between June 7th and June 11th, with sessions accommodating multiple timezones.
