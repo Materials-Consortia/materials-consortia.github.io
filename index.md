@@ -38,13 +38,19 @@ All of our work is openly available under the [Materials-Consortia](https://gith
 We would love to help you create and register your own OPTIMADE API implementations and hear your feedback on the specification.
 We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`); everyone is welcome to join the discussion, please feel free to reach out on the mailing list
 `dev[at]optimade.org` to register your interest.
-The next meeting will take place on {% include {{ page.next_meeting }} %}.
+In the run up to the next specification release, we have exceptionally scheduled
+several meetings ahead of time.
+There will be a release-oriented meeting on {% include {{ page.next_meeting }} %}, with the potential to drop in and out of "office hours"-style discussions from 10:00 CST on Jitsi.
+Following this, there will be 3 general meetings on
+
+- Friday 30th June at 15:00 UTC/17:00 CST
+- Friday 25th August at 15:00 UTC/17:00 CST
+- Thursday 28th September at 15:00 UTC/17:00 CST
 
 Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
 If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
 
 With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
-The latest 2021 workshop was held virtually between June 7th and June 11th, with sessions accommodating multiple timezones.
 
 **OMDI2021**: Related to the central OPTIMADE efforts, the *Workshop on Ontologies for Materials-Databases Interoperability 2021* was held at Linköping University, Sweden on **October 5-7, 2021**.
 To read more about **OMDI2021** go to [the workshop site](omdi2021) or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
