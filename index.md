@@ -43,9 +43,8 @@ several meetings ahead of time.
 There will be a release-oriented meeting on {% include {{ page.next_meeting }} %}, with the potential to drop in and out of "office hours"-style discussions from 10:00 CST on Jitsi.
 Following this, there will be 3 general meetings on
 
-- Friday 30th June at 15:00 UTC/17:00 CST
-- Friday 25th August at 15:00 UTC/17:00 CST
-- Thursday 28th September at 15:00 UTC/17:00 CST
+- Friday 25th August at 15:00 UTC/17:00 CEST
+- Thursday 28th September at 15:00 UTC/17:00 CEST
 
 Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
 If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
