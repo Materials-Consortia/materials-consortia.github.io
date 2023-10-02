@@ -38,13 +38,8 @@ All of our work is openly available under the [Materials-Consortia](https://gith
 We would love to help you create and register your own OPTIMADE API implementations and hear your feedback on the specification.
 We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`); everyone is welcome to join the discussion, please feel free to reach out on the mailing list
 `dev[at]optimade.org` to register your interest.
-In the run up to the next specification release, we have exceptionally scheduled
-several meetings ahead of time.
-There will be a release-oriented meeting on {% include {{ page.next_meeting }} %}, with the potential to drop in and out of "office hours"-style discussions from 10:00 CST on Jitsi.
-Following this, there will be 3 general meetings on
 
-- Friday 25th August at 15:00 UTC/17:00 CEST
-- Thursday 28th September at 15:00 UTC/17:00 CEST
+The next meeting will take place on {% include {{ page.next_meeting }} %}.
 
 Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
 If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
