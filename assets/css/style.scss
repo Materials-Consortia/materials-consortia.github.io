@@ -104,3 +104,35 @@ img {
 #header_wrap .inner {
   max-width: none !important;
 }
+
+.counter-body {
+    font-family: monospace;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    min-width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding: 10px;
+}
+
+.provider_counter {
+    color: #ff414d;
+}
+
+.database_counter {
+    color: #7a2dd0;
+}
+
+.structure_counter {
+    color: #00acd9;
+}
