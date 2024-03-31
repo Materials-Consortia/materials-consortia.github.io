@@ -115,12 +115,13 @@ img {
     font-size: 48px;
     font-weight: bold;
     padding: 10px;
+    font-family: monospace;
 }
 
-.counter_table.td {
+.counter_table.tr.td {
     font-family: monospace;
     text-align: center;
-    min-width: 150px;
+    min-width: 200px;
     border: 1px solid black;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: white;
