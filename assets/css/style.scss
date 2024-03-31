@@ -118,6 +118,16 @@ img {
     font-family: monospace;
 }
 
+.counter_table.tr.th {
+    font-family: monospace;
+    text-align: center;
+    min-width: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding: 10px;
+}
+
 .counter_table.tr.td {
     font-family: monospace;
     text-align: center;
@@ -127,6 +137,7 @@ img {
     background-color: white;
     padding: 10px;
 }
+
 
 .counter_table.tr {
     font-family: monospace;
