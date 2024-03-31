@@ -1,0 +1,81 @@
+<!-- Generated with the help of Claude 3 Sonnet -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+    <style>
+        body {
+            font-family: monospace;
+            text-align: center;
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        .counter {
+            font-size: 48px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td {
+            min-width: 150px;
+            border: 1px solid black;
+            box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+            background-color: white;
+            padding: 10px;
+        }
+
+        .provider_counter {
+            color: #ff414d;
+        }
+
+        .database_counter {
+            color: #7a2dd0;
+        }
+
+        .structure_counter {
+            color: #00acd9;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><span id="provider_counter" class="provider_counter counter">0</span></td>
+            <td><span id="database_counter" class="database_counter counter">0</span></td>
+            <td><span id="structure_counter" class="structure_counter counter">0</span></td>
+        </tr>
+        <tr>
+            <th>PROVIDERS</th>
+            <th>DATABASES</th>
+            <th>STRUCTURES</th>
+        </tr>
+
+    <script>
+        function createCounter(targetValue, totalTime, elementId) {
+            let counter = 0;
+            const counterElement = document.getElementById(elementId);
+
+            // target 100 updates
+            const chunk = Math.ceil(targetValue / 100);
+            const interval = totalTime * 1000 / (targetValue / chunk);
+
+            function incrementCounter() {
+                counter += chunk;
+                counterElement.textContent = counter.toLocaleString('en-US');
+
+
+                if (counter < targetValue) {
+                    setTimeout(incrementCounter, interval);
+                }
+            }
+
+            incrementCounter();
+        }
+
+        // Create three counters
+        createCounter(24, 1, 'provider_counter');
+        createCounter(29, 1, 'database_counter');
+        createCounter(27730555, 2, 'structure_counter');
+    </script>
+</body>

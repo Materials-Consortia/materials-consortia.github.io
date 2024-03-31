@@ -1,11 +1,15 @@
 ---
 title: OPTIMADE
 next_meeting: next_meeting.html
+counters: counter.html
 ---
 
 # About us
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API.
+
+{% include {{ page.counters }} %}
+
 
 ## Motivation
 
