@@ -28,3 +28,11 @@ Can be run from the server, USB-stick, etc.
 It allows for searching through *all* the known OPTIMADE databases from the [OPTIMADE providers list](https://providers.optimade.org) *simultaneously* using the OPTIMADE filter language (see the specification for more information).
 
 **Try this**: [optimade.science](https://optimade.science){:target="_blank"}
+
+## optimade-python-tools
+
+The [`optimade-python-tools`](https://optimade.org/optimade-python-tools){:target="_blank"} Python library contains an asynchronous client implementation that can be used to concurrently query all OPTIMADE databases from Python code or from the command-line.
+More information can be found on the [documentation site](https://www.optimade.org/optimade-python-tools/latest/getting_started/client/){:target="_blank"}.
+
+
+**Try this**: [`optimade-python-tools`](https://www.optimade.org/optimade-python-tools/latest/INSTALL/){:target="_blank"}
