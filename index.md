@@ -22,7 +22,7 @@ Thanks to the exponential growth of computer power and the development of robust
 This is the burgeoning area of high-throughput ab initio computation.
 Such calculations have been used to create large databases containing the calculated properties of existing and hypothetical materials, many of which have appeared online.
 
-We have released version 1.0 of the OPTIMADE specification, with several databases already providing implementations.
+We have released version 1 of the OPTIMADE specification, with several databases already providing implementations.
 A full list is available on the [OPTIMADE providers dashboard](https://www.optimade.org/providers-dashboard/){:target="_blank"}.
 
 ## How to cite OPTIMADE
