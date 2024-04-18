@@ -45,7 +45,7 @@ We would love to help you create and register your own OPTIMADE API implementati
 We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`); everyone is welcome to join the discussion, please feel free to reach out on the mailing list
 `dev[at]optimade.org` to register your interest.
 
-The next meeting will take place on {% include {{ page.next_meeting }} %}.
+The next meeting will take place on {% include {{ page.next_meeting }} %}
 
 Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
 If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
