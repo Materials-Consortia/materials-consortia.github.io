@@ -2,7 +2,7 @@
 
 Latest version: [OPTIMADE 1.2.0-rc2](https://materials-consortia.github.io/specification)
 
-## Soure repositories
+## Source repositories
 
 **The latest *stable* version** is found in the [master](https://github.com/Materials-Consortia/OPTIMADE/tree/master/optimade.rst){:target="_blank"} branch in the GitHub repository.  
 **The latest *development* version** is found in the [develop](https://github.com/Materials-Consortia/OPTIMADE/tree/develop/optimade.rst){:target="_blank"} branch of the same repository.

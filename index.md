@@ -8,6 +8,9 @@ counters: counter.html
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API.
 
+We have released version 1 of the OPTIMADE specification, with several databases already providing implementations.
+A full list is available on the [OPTIMADE providers dashboard](https://www.optimade.org/providers-dashboard/){:target="_blank"}.
+
 
 {% include {{ page.counters }} %}
 
@@ -19,11 +22,9 @@ Researchers think of new ideas based on intuition and experience.
 Their synthesis and evaluation require a tremendous amount of trial and error.
 In the last few years, there has been a major game change in materials design.
 Thanks to the exponential growth of computer power and the development of robust first-principles electronic structure codes, it has become possible to perform large sets of calculations automatically.
-This is the burgeoning area of high-throughput ab initio computation.
+This is the burgeoning area of high-throughput *ab initio* computation.
 Such calculations have been used to create large databases containing the calculated properties of existing and hypothetical materials, many of which have appeared online.
 
-We have released version 1 of the OPTIMADE specification, with several databases already providing implementations.
-A full list is available on the [OPTIMADE providers dashboard](https://www.optimade.org/providers-dashboard/){:target="_blank"}.
 
 ## How to cite OPTIMADE
 
