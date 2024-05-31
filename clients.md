@@ -1,16 +1,7 @@
 # Clients
 
-There are already a few ways to try out OPTIMADE implementations:
-
-## Swagger
-
-Through the [Swagger/OpenAPI UI](https://petstore.swagger.io){:target="_blank"}, one can try making queries to implementations hosting an OpenAPI specification.
-Implementations based on the Python [`optimade`](https://pypi.org/project/optimade/){:target="_blank"} package from the [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools){:target="_blank"} repository automatically creates and hosts an OpenAPI specification at `/extensions/openapi.json`.
-Note, this is the default location and may not be where the OpenAPI specification is found for individual implementations.
-
-**Try this**:
-
-- [Open Database of Crystals (ODBX)](https://petstore.swagger.io/?url=https://optimade.odbx.science/v1/extensions/openapi.json){:target="_blank"}
+Whilst OPTIMADE APIs can be accessed with generic tools (e.g., curl) and
+any programming language, there a set of specialised clients have been created:
 
 ## Materials Cloud Tool
 
@@ -36,3 +27,13 @@ More information can be found on the [documentation site](https://www.optimade.o
 
 
 **Try this**: [`optimade-python-tools`](https://www.optimade.org/optimade-python-tools/latest/INSTALL/){:target="_blank"}
+
+## Swagger
+
+Through the [Swagger/OpenAPI UI](https://petstore.swagger.io){:target="_blank"}, one can try making queries to implementations hosting an OpenAPI specification.
+Implementations based on the Python [`optimade`](https://pypi.org/project/optimade/){:target="_blank"} package from the [`optimade-python-tools`](https://github.com/Materials-Consortia/optimade-python-tools){:target="_blank"} repository automatically creates and hosts an OpenAPI specification at `/extensions/openapi.json`.
+Note, this is the default location and may not be where the OpenAPI specification is found for individual implementations.
+
+**Try this**:
+
+- [Open Database of Crystals (ODBX)](https://petstore.swagger.io/?url=https://optimade.odbx.science/v1/extensions/openapi.json){:target="_blank"}
