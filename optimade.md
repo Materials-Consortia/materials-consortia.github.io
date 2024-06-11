@@ -1,6 +1,6 @@
 # OPTIMADE API Specification
 
-Latest version: [OPTIMADE 1.2.0-rc2](https://materials-consortia.github.io/specification)
+Latest version: [OPTIMADE 1.2.0](https://materials-consortia.github.io/specification)
 
 ## Source repositories
 
