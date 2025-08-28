@@ -28,6 +28,9 @@ jobs:
       if: ${{ github.event_name == 'pull_request' }}
       run: exit ${{ steps.lychee.outputs.exit_code }}
 
+    - name: Print lychee report
+      run: cat ./lychee/out.md
+
     - name: Create Issue
       if: ${{ github.event_name == 'schedule' }}
       uses: peter-evans/create-issue-from-file@v4
