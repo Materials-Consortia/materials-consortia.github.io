@@ -22,7 +22,7 @@ jobs:
         fail: false
         jobSummary: false
         output: ./lychee/out.md
-        args: --verbose --no-progress **/*.md **/*.html --exclude file://*
+        args: "**/*.md **/*.html --exclude file://*"
 
     - name: Fail on link errors in PRs
       if: ${{ github.event_name == 'pull_request' }}
