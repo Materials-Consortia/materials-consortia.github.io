@@ -29,7 +29,7 @@ jobs:
       run: exit ${{ steps.lychee.outputs.exit_code }}
 
     - name: Create Issue
-      if: ${{ github.event_name != 'pull_request' }}
+      if: ${{ github.event_name == 'schedule' }}
       uses: peter-evans/create-issue-from-file@v4
       with:
         title: Dead links detected
