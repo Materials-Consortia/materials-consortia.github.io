@@ -19,6 +19,9 @@ jobs:
       id: lychee
       uses: lycheeverse/lychee-action@v2.0.2
       with:
+        fail: false
+        jobSummary: false
+        output: ./lychee/out.md
         args: --verbose --no-progress **/*.md **/*.html --exclude file://*
 
     - name: Fail on link errors in PRs
