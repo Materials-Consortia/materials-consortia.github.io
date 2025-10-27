@@ -10,7 +10,7 @@ It allows for searching through OPTIMADE databases, filtering on the structure p
 
 The filtering can be done either using the OPTIMADE filter language (see the specification for more information) directly, or one can use the friendly filtering widgets (default).
 
-**Try this**: [materialscloud.org/optimadeclient](https://materialscloud.org/optimadeclient){:target="_blank"}
+**Try this**: [materialscloud.org/optimadeclient](https://optimadeclient.materialscloud.io/){:target="_blank"}
 
 ## optimade.science
 
