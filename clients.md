@@ -22,7 +22,7 @@ It allows for searching through *all* the known OPTIMADE databases from the [OPT
 
 ## optimade-python-tools
 
-The [`optimade-python-tools`](https://optimade.org/optimade-python-tools){:target="_blank"} Python library contains an asynchronous client implementation that can be used to concurrently query all OPTIMADE databases from Python code or from the command-line.
+The [`optimade-python-tools`](https://www.optimade.org/optimade-python-tools){:target="_blank"} Python library contains an asynchronous client implementation that can be used to concurrently query all OPTIMADE databases from Python code or from the command-line.
 More information can be found on the [documentation site](https://www.optimade.org/optimade-python-tools/latest/getting_started/client/){:target="_blank"}.
 
 
