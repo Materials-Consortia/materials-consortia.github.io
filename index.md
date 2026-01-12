@@ -14,6 +14,9 @@ A full list is available on the [OPTIMADE providers dashboard](https://www.optim
 
 {% include {{ page.counters }} %}
 
+> The next online meeting will take place on {% include {{ page.next_meeting }} %} on [Jitsi](https://meet.jit.si/OPTIMADE) (more details below).
+
+> The next OPTIMADE CECAM workshop will take place in Grenoble, June 29 - July 3 2026 - [register here](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1536).
 
 ## Motivation
 
