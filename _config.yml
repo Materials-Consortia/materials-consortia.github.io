@@ -1,6 +1,18 @@
 baseurl: ""
-url: "https://optimade.org"
+# Must match CNAME: the apex domain only redirects here, and canonical URLs and
+# the social-preview image should point at the host that actually serves them.
+url: "https://www.optimade.org"
+description: >-
+  OPTIMADE is a consortium of materials database providers that develops a
+  common REST API, so that materials databases can be searched and their data
+  retrieved in the same way, whichever provider they come from.
 theme: jekyll-theme-slate
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+defaults:
+  # Social-preview image for every page; jekyll-seo-tag only reads this per page
+  - scope:
+      path: ""
+    values:
+      image: "/assets/images/logos/optimade-text-right-white-bg.png"

@@ -5,8 +5,8 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css{{ '/style.css?v=' | append: site.github.build_revision }}"> {% seo %}
-    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css' | relative_url }}{{ '?v=' | append: site.github.build_revision }}"> {% seo %}
+    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
     {% include head.html %}
 </head>
 
@@ -17,17 +17,19 @@
         <header class="inner">
 
             <div id="logo">
-              <a href="index"><img src="assets/images/optimade-text-right-transparent-bg.png"></a>
+              <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/optimade-text-right-transparent-bg.png' | relative_url }}"></a>
             </div>
             <br>
             <div class="menu">
-                <a href="index">About</a>
-                <a href="resources">Resources</a>
-                <a href="optimade">Specification</a>
-                <a href="contributors">Contributors</a>
+                <a href="{{ '/' | relative_url }}">About</a>
+                <a href="{{ '/resources' | relative_url }}">Resources</a>
+                <a href="{{ '/api-specification' | relative_url }}">API Specification</a>
+                <a href="https://www.optimade.org/providers-dashboard/">Dashboard</a>
+                <a href="{{ '/#get-involved' | relative_url }}">Community</a>
+                <a href="{{ '/contributors' | relative_url }}">Contributors</a>
                 <a href="https://github.com/Materials-Consortia/" target="_blank">GitHub</a>
                 <a href="https://matsci.org/c/optimade/" target="_blank">Forum</a>
-                <span class="special_menu"><a href="clients">Try It!</a></span>
+                <span class="special_menu"><a href="{{ '/clients' | relative_url }}">Try It!</a></span>
        	    </div>
 
         </header>
@@ -43,9 +45,33 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
         <footer class="inner">
-            {% if site.github.is_project_page %}
-            <p>Published with <a href="https://pages.github.com">GitHub Pages</a>; maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-            {% endif %}
+            <div class="footer_links">
+                <div class="footer_column">
+                    <h4>Use OPTIMADE</h4>
+                    <ul>
+                        <li><a href="{{ '/clients' | relative_url }}">Clients</a></li>
+                        <li><a href="https://www.optimade.org/providers-dashboard/">Providers dashboard</a></li>
+                        <li><a href="https://status.optimade.org" target="_blank">Service status</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4>Build with OPTIMADE</h4>
+                    <ul>
+                        <li><a href="{{ '/api-specification' | relative_url }}">API specification</a></li>
+                        <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
+                        <li><a href="https://github.com/Materials-Consortia/providers" target="_blank">Register your database</a></li>
+                    </ul>
+                </div>
+                <div class="footer_column">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="{{ '/#get-involved' | relative_url }}">Get involved</a></li>
+                        <li><a href="{{ '/contributors' | relative_url }}">Contributors</a></li>
+                        <li><a href="mailto:dev@optimade.org">dev@optimade.org</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer_credit">Published with <a href="https://pages.github.com">GitHub Pages</a>; maintained by the <a href="https://github.com/Materials-Consortia/">Materials Consortia</a></p>
         </footer>
     </div>
 

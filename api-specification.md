@@ -1,3 +1,10 @@
+---
+title: OPTIMADE API Specification
+description: >-
+  Where to find the stable and development versions of the OPTIMADE API
+  specification, and which version server and client developers should implement.
+---
+
 # OPTIMADE API Specification
 
 Latest version: [OPTIMADE specification](https://optimade.org/specification)

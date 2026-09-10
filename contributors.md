@@ -1,3 +1,10 @@
+---
+title: Contributors
+description: >-
+  The people behind the OPTIMADE API: participants of the yearly OPTIMADE
+  workshops and the authors of the two papers describing the specification.
+---
+
 # Contributors
 
 The OPTIMADE API has been developed by the participants of the yearly OPTIMADE workshops, held since 2016:
@@ -6,10 +13,12 @@ The OPTIMADE API has been developed by the participants of the yearly OPTIMADE w
 - CECAM in Lausanne, Switzerland from 2018-06-11 to 2018-06-15 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/244){:target="_blank"})
 - CECAM in Lausanne, Switzerland from 2019-06-11 to 2019-06-14 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/154){:target="_blank"})
 - virtually, supported by CECAM in Lausanne, Switzerland from 2020-06-08 to 2020-06-12 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/991){:target="_blank"})
-- virtually, supported by the CECAM in Lausanne, Switzerland from 2021-06-07 to 2021-06-11
-- CECAM in Lausanne, Switzerland 2022-05-30 to 2022-06-03 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-52){:target="_blank"})
+- virtually, supported by the CECAM in Lausanne, Switzerland from 2021-06-07 to 2021-06-11 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/52){:target="_blank"})
+- CECAM in Lausanne, Switzerland 2022-05-30 to 2022-06-03 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1120){:target="_blank"})
 - CECAM in Lausanne, Switzerland 2023-06-05 to 2023-06-09 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/1208){:target="_blank"})
-- CECAM in Lausanne, Switzerland 2024-06-10 to 2023-06-14 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/1280){:target="_blank"})
+- CECAM in Lausanne, Switzerland 2024-06-10 to 2024-06-14 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1280){:target="_blank"})
+- Vilnius University Life Sciences Center in Vilnius, Lithuania 2025-09-15 to 2025-09-19 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1451){:target="_blank"})
+- the campus of the University Grenoble Alpes in Grenoble, France 2026-06-29 to 2026-07-03 ([CECAM Flagship Workshop](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1536){:target="_blank"})
 
 The contributors include all authors of the two papers describing the OPTIMADE API:
 

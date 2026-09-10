@@ -6,12 +6,19 @@
             <td><span id="database_counter" class="database_counter counter">0</span></td>
             <td><span id="structure_counter" class="structure_counter counter">0</span></td>
         </tr>
-        <tr style="font-family: monospace; background-color: white; text-align: center;">
-            <th>PROVIDERS</th>
-            <th>DATABASES</th>
+        <tr>
+            <th>AVAILABLE PROVIDERS</th>
+            <th>SUB-DATABASES</th>
             <th>STRUCTURES</th>
         </tr>
     </table>
+
+    <p class="counter_source">
+        Providers that have registered a base URL, the sub-databases they serve, and the structures in
+        them. Counted by the
+        <a href="https://www.optimade.org/providers-dashboard/">OPTIMADE providers dashboard</a>,
+        which has the live figures; the numbers above were copied from it on 11 September 2026.
+    </p>
 
     <script>
         function createCounter(targetValue, totalTime, elementId) {
@@ -23,7 +30,9 @@
             const interval = totalTime * 1000 / (targetValue / chunk);
 
             function incrementCounter() {
-                counter += chunk;
+                // clamp, so the animation ends on the exact figure rather than
+                // on the next multiple of chunk
+                counter = Math.min(counter + chunk, targetValue);
                 counterElement.textContent = counter.toLocaleString('en-US');
 
 
@@ -35,9 +44,11 @@
             incrementCounter();
         }
 
-        // Create three counters
-        createCounter(25, 1, 'provider_counter');
-        createCounter(29, 1, 'database_counter');
-        createCounter(27730555 + 31791192, 2, 'structure_counter');
+        // Create three counters.
+        // These are the figures reported by https://www.optimade.org/providers-dashboard/
+        // Please update the date in the caption above whenever you refresh them.
+        createCounter(21, 1, 'provider_counter');
+        createCounter(45, 1, 'database_counter');
+        createCounter(27271308, 2, 'structure_counter');
     </script>
 </div>

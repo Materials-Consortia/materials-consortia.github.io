@@ -105,11 +105,15 @@ img {
   max-width: none !important;
 }
 
-.counter-body {
+.counter_body {
     font-family: monospace;
     text-align: center;
     padding-top: 50px;
     font-size: 20px;
+    /* The table can still be wider than a phone screen; let it scroll inside
+       its own box rather than pushing the whole page sideways (issue #74). */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .counter {
     font-size: 40px;
@@ -118,34 +122,17 @@ img {
     font-family: monospace;
 }
 
-.counter_table.tr.th {
+.counter_table th,
+.counter_table td {
     font-family: monospace;
     text-align: center;
-    min-width: 200px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    padding: 10px;
-}
-
-.counter_table.tr.td {
-    font-family: monospace;
-    text-align: center;
-    min-width: 200px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    padding: 10px;
-}
-
-
-.counter_table.tr {
-    font-family: monospace;
-    text-align: center;
+    box-sizing: border-box;
     min-width: 150px;
     border: 1px solid black;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
     background-color: white;
+    /* the theme gives th white text, which would be invisible on white */
+    color: #373737;
     padding: 10px;
 }
 
@@ -162,4 +149,63 @@ img {
 .structure_counter {
     color: #00acd9;
     font-family: monospace;
+}
+
+.counter_source {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #606060;
+    text-align: center;
+    max-width: 40em;
+    margin: 8px auto 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .counter {
+        font-size: 26px;
+        padding: 4px;
+    }
+    .counter_table th,
+    .counter_table td {
+        min-width: 0;
+        padding: 4px;
+    }
+    .counter_table th {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .counter {
+        font-size: 20px;
+    }
+}
+
+.footer_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 40px;
+    text-align: left;
+}
+
+.footer_links h4 {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+    color: #f2f2f2;
+}
+
+.footer_links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_links li {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_credit {
+    margin-top: 16px;
+    font-size: 0.85em;
 }

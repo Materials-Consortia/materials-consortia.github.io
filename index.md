@@ -1,5 +1,9 @@
 ---
 title: OPTIMADE
+description: >-
+  OPTIMADE is a consortium of materials database providers that develops a
+  common REST API, so that materials databases can be searched and their data
+  retrieved in the same way, whichever provider they come from.
 next_meeting: next_meeting.html
 counters: counter.html
 ---
@@ -8,7 +12,7 @@ counters: counter.html
 
 The **Open Databases Integration for Materials Design** (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API.
 
-We have released version 1 of the OPTIMADE specification, with several databases already providing implementations.
+The latest release of the OPTIMADE specification is **v1.3.0** (December 2025), and several databases already provide implementations.
 A full list is available on the [OPTIMADE providers dashboard](https://www.optimade.org/providers-dashboard/){:target="_blank"}.
 
 
@@ -16,7 +20,8 @@ A full list is available on the [OPTIMADE providers dashboard](https://www.optim
 
 > The next online meeting will take place on {% include {{ page.next_meeting }} %} on [Jitsi](https://meet.jit.si/OPTIMADE) (more details below).
 
-> The next OPTIMADE CECAM workshop will take place in Grenoble, June 29 - July 3 2026 - [register here](https://www.cecam.org/workshop-details/open-databases-integration-for-materials-design-1536).
+> The most recent OPTIMADE CECAM workshop was held on the campus of the University Grenoble Alpes, June 29 - July 3 2026.
+> To see all OPTIMADE events, see [the list of workshops]({{ '/contributors' | relative_url }}).
 
 ## Motivation
 
@@ -51,10 +56,10 @@ We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`
 
 The next meeting will take place on {% include {{ page.next_meeting }} %}
 
-Besides GitHub, we use [Slack](https://optimade.slack.com) for developer communication.
-If you wish to join the workspace, please feel free to use [this invite link](https://join.slack.com/t/optimade/shared_invite/zt-1m52h9p41-hKS4w4SQ1pFg~VnNLboLFg).
+Besides GitHub, we use a Slack workspace for day-to-day developer communication.
+We do not publish an open invite link, because these expire silently; write to `dev[at]optimade.org` and we will add you.
 
 With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
 
 **OMDI2021**: Related to the central OPTIMADE efforts, the *Workshop on Ontologies for Materials-Databases Interoperability 2021* was held at Linköping University, Sweden on **October 5-7, 2021**.
-To read more about **OMDI2021** go to [the workshop site](omdi2021) or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
+To read more about **OMDI2021** go to [the workshop site](https://www.optimade.org/omdi2021/){:target="_blank"} or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
