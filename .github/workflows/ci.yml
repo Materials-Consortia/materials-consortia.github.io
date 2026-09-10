@@ -10,9 +10,34 @@ on:
 
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Build site
+      run: bundle exec jekyll build --strict_front_matter --trace
+
+    - name: Upload built site
+      uses: actions/upload-artifact@v4
+      with:
+        name: site
+        path: _site/
+
   check-links:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
     steps:
     - uses: actions/checkout@v3
     - name: Link Checker
@@ -28,10 +53,36 @@ jobs:
       if: ${{ github.event_name == 'pull_request' }}
       run: exit ${{ steps.lychee.outputs.exit_code }}
 
-    - name: Create Issue
+    # Rather than opening a new issue every Monday, keep reusing issue #106, so
+    # that whether it is open says whether links are currently broken.
+    # create-issue-from-file only sets the title and body, so reopen the issue
+    # here in case it was closed.
+    - name: Reopen the link rot issue
       if: ${{ github.event_name == 'schedule' && steps.lychee.outputs.exit_code != '0' }}
-      uses: peter-evans/create-issue-from-file@v4
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: gh api --method PATCH "repos/${{ github.repository }}/issues/106" -f state=open
+
+    - name: Report dead links
+      if: ${{ github.event_name == 'schedule' && steps.lychee.outputs.exit_code != '0' }}
+      uses: peter-evans/create-issue-from-file@v5
       with:
         title: Dead links detected
         content-filepath: ./lychee/out.md
         labels: 'link rot'
+        issue-number: 106
+
+    # Nothing is broken any more, so close the issue rather than leaving last
+    # week's report standing. Checking the state first keeps this quiet: it
+    # comments and closes only on the run where the last dead link goes away.
+    - name: Close the link rot issue
+      if: ${{ github.event_name == 'schedule' && steps.lychee.outputs.exit_code == '0' }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+        REPO: ${{ github.repository }}
+      run: |
+        if [ "$(gh api "repos/$REPO/issues/106" --jq .state)" = "open" ]; then
+          gh issue comment 106 --repo "$REPO" \
+            --body "All links resolved as of $(date -u +%Y-%m-%d); closing."
+          gh api --method PATCH "repos/$REPO/issues/106" -f state=closed
+        fi
