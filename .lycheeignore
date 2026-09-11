@@ -7,3 +7,8 @@
 
 # Slack blocks unauthenticated requests to workspace URLs by design.
 ^https?://[a-z0-9-]+\.slack\.com/
+
+# Timeanddate rejects bots with 403
+^https://www.timeanddate.com/
+
+  

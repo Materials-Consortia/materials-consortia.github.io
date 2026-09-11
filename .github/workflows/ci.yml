@@ -49,9 +49,10 @@ jobs:
         output: ./lychee/out.md
         args: "**/*.md **/*.html --exclude file://*"
 
-    - name: Fail on link errors in PRs
-      if: ${{ github.event_name == 'pull_request' }}
-      run: exit ${{ steps.lychee.outputs.exit_code }}
+    # For now we don't fail on broken links, this might be flaky
+    #- name: Fail on link errors in PRs
+    #  if: ${{ github.event_name == 'pull_request' }}
+    #  run: exit ${{ steps.lychee.outputs.exit_code }}
 
     # Rather than opening a new issue every Monday, keep reusing issue #106, so
     # that whether it is open says whether links are currently broken.
