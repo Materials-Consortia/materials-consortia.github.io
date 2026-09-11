@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css' | relative_url }}{{ '?v=' | append: site.github.build_revision }}"> {% seo %}
     <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
-    {% include head.html %}
 </head>
 
 <body>
@@ -22,14 +21,12 @@
             <br>
             <div class="menu">
                 <a href="{{ '/' | relative_url }}">About</a>
+                <a href="{{ '/api-specification' | relative_url }}">Specification</a>
                 <a href="{{ '/resources' | relative_url }}">Resources</a>
-                <a href="{{ '/api-specification' | relative_url }}">API Specification</a>
+                <a href="{{ '/events' | relative_url }}">Events</a>
+                <a href="{{ '/community' | relative_url }}">Community</a>
                 <a href="https://www.optimade.org/providers-dashboard/">Dashboard</a>
-                <a href="{{ '/#get-involved' | relative_url }}">Community</a>
-                <a href="{{ '/contributors' | relative_url }}">Contributors</a>
-                <a href="https://github.com/Materials-Consortia/" target="_blank">GitHub</a>
-                <a href="https://matsci.org/c/optimade/" target="_blank">Forum</a>
-                <span class="special_menu"><a href="{{ '/clients' | relative_url }}">Try It!</a></span>
+                <span class="special_menu"><a href="{{ '/clients' | relative_url }}">Clients (Try it!)</a></span>
        	    </div>
 
         </header>
@@ -52,22 +49,26 @@
                         <li><a href="{{ '/clients' | relative_url }}">Clients</a></li>
                         <li><a href="https://www.optimade.org/providers-dashboard/">Providers dashboard</a></li>
                         <li><a href="https://status.optimade.org" target="_blank">Service status</a></li>
+                        <li><a href="{{ '/how-to-cite' | relative_url }}">How to cite</a></li>
                     </ul>
                 </div>
                 <div class="footer_column">
                     <h4>Build with OPTIMADE</h4>
                     <ul>
                         <li><a href="{{ '/api-specification' | relative_url }}">API specification</a></li>
-                        <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
+                        <li><a href="{{ '/resources' | relative_url }}#software">Software</a></li>
                         <li><a href="https://github.com/Materials-Consortia/providers" target="_blank">Register your database</a></li>
+                        <li><a href="https://github.com/Materials-Consortia/" target="_blank">GitHub</a></li>
                     </ul>
                 </div>
                 <div class="footer_column">
                     <h4>Community</h4>
                     <ul>
-                        <li><a href="{{ '/#get-involved' | relative_url }}">Get involved</a></li>
+                        <li><a href="{{ '/community' | relative_url }}">Get involved</a></li>
+                        <li><a href="{{ '/events' | relative_url }}">Events</a></li>
                         <li><a href="{{ '/contributors' | relative_url }}">Contributors</a></li>
                         <li><a href="mailto:dev@optimade.org">dev@optimade.org</a></li>
+                        <li><a href="https://matsci.org/c/optimade/" target="_blank">Forum</a></li>
                     </ul>
                 </div>
             </div>
