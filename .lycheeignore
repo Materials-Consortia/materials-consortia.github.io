@@ -10,3 +10,6 @@
 
 # Timeanddate rejects bots with 403
 ^https://www.timeanddate.com/
+
+# Ignore localhost in README
+^https?://localhost(:[0-9]+)?/
