@@ -74,7 +74,10 @@ Same query, any other provider: change the base URL. `data_returned` is how many
 entries matched, `data_available` how many the database holds.
 
 The structures themselves come back the same way. Ask for
-`response_fields=lattice_vectors,cartesian_site_positions,species_at_sites,species`
+<!-- Written as raw HTML rather than in backticks so that the <wbr> hints fit
+     in: this is one long token with no spaces, and without them a narrow
+     screen has to break it at an arbitrary letter. -->
+<code>response_fields=<wbr>lattice_vectors,<wbr>cartesian_site_positions,<wbr>species_at_sites,<wbr>species</code>
 and you get the unit cell, the Cartesian coordinates of every site, and what
 sits on each one — `species_at_sites` names entries in `species`, which is where
 the chemical symbols are. Those fields mean the same thing at every provider,
