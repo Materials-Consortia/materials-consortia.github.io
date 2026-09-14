@@ -10,20 +10,106 @@ counters: counter.html
 
 # About us
 
-The **Open Databases Integration for Materials Design** (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API.
+The **Open Databases Integration for Materials Design** (OPTIMADE) is a
+**consortium of materials database providers** with the aim of making materials
+databases interoperable.
 
-The latest release of the OPTIMADE specification is **v1.3.0** (December 2025), and several databases already provide implementations.
-A full list is available on the [OPTIMADE providers dashboard](https://www.optimade.org/providers-dashboard/){:target="_blank"}.
+The **OPTIMADE API** is a standard API that unifies searching and retrieving
+information from materials databases.
+→ [More about the motivations behind the OPTIMADE API](#motivation)
 
+The latest release of the specification is **v1.3.0** (December 2025).
 
 {% include {{ page.counters }} %}
 
-> The next online meeting will take place on {% include {{ page.next_meeting }} %} on [Jitsi](https://meet.jit.si/OPTIMADE) (more details below).
+## Why it is worth it
 
-> The most recent OPTIMADE CECAM workshop was held on the campus of the University Grenoble Alpes, June 29 - July 3 2026.
-> To see all OPTIMADE events, see [the list of workshops]({{ '/contributors' | relative_url }}).
+**If you consume data**, one filter query works everywhere. You write it once
+and send it to every database that implements OPTIMADE, instead of learning a
+different API, a different query syntax and a different data model for each one.
+Tools already exist that query every known OPTIMADE database at once and hand
+you back a single set of results.
 
-## Motivation
+**If you provide data**, implementing OPTIMADE makes your database visible to
+everyone already using those tools, without you building or maintaining a client
+of your own. You keep your own API, your own data model and your own terms of
+use; OPTIMADE is an additional, standard way in. The
+[reference implementation]({{ '/resources' | relative_url }}#software) does most
+of the work, and once you are
+[registered](https://github.com/Materials-Consortia/providers){:target="_blank"}
+every OPTIMADE client can reach you.
+
+## Try it now
+
+This asks the Crystallography Open Database for binary silicon oxides, and is
+copy-pasteable as it stands:
+
+```console
+$ curl -G 'https://www.crystallography.net/cod/optimade/v1/structures' \
+    --data-urlencode 'filter=elements HAS ALL "Si","O" AND nelements=2' \
+    --data-urlencode 'response_fields=chemical_formula_descriptive,nelements' \
+    --data-urlencode 'page_limit=1'
+```
+
+```json
+{
+  "data": [
+    {
+      "id": "1010921",
+      "type": "structures",
+      "attributes": {
+        "chemical_formula_descriptive": "O2Si",
+        "nelements": 2
+      }
+    }
+  ],
+  "meta": {
+    "data_returned": 394,
+    "data_available": 535065
+  }
+}
+```
+
+Same query, any other provider: change the base URL. `data_returned` is how many
+entries matched, `data_available` how many the database holds.
+
+The structures themselves come back the same way. Ask for
+<!-- Written as raw HTML rather than in backticks so that the <wbr> hints fit
+     in: this is one long token with no spaces, and without them a narrow
+     screen has to break it at an arbitrary letter. -->
+<code>response_fields=<wbr>lattice_vectors,<wbr>cartesian_site_positions,<wbr>species_at_sites,<wbr>species</code>
+and you get the unit cell, the Cartesian coordinates of every site, and what
+sits on each one — `species_at_sites` names entries in `species`, which is where
+the chemical symbols are. Those fields mean the same thing at every provider,
+which is the whole point of the standard.
+
+*Response retrieved on 11 September 2026 and shortened for clarity — the real
+one also carries `links` and `relationships` for each entry, and the counts
+change as the database grows.*
+
+## Query everything at once
+
+To search across the whole federation rather than one database at a time:
+
+- the [**providers dashboard**](https://www.optimade.org/providers-dashboard/){:target="_blank"}
+  lists every known provider, what each one serves and which version it speaks;
+- [`optimade.science`](https://optimade.science){:target="_blank"} queries all
+  known databases simultaneously from your browser;
+- the [`optimade-python-tools` client]({{ '/clients' | relative_url }}) does the
+  same from Python or the command line.
+
+All of these are compared on the [clients]({{ '/clients' | relative_url }}) page.
+
+## Where to go next
+
+- **Query data** → [clients]({{ '/clients' | relative_url }})
+- **Serve your data** → [resources]({{ '/resources' | relative_url }}#software)
+- **Get involved** → [community]({{ '/community' | relative_url }})
+
+If you use OPTIMADE in published work, please see
+[how to cite]({{ '/how-to-cite' | relative_url }}).
+
+## Motivation    {#motivation}
 
 Designing new materials suitable for specific applications is a long, complex, and costly process.
 Researchers think of new ideas based on intuition and experience.
@@ -33,33 +119,19 @@ Thanks to the exponential growth of computer power and the development of robust
 This is the burgeoning area of high-throughput *ab initio* computation.
 Such calculations have been used to create large databases containing the calculated properties of existing and hypothetical materials, many of which have appeared online.
 
+Those databases grew up independently, each with its own API, query language and
+data model, which makes using more than one of them at a time far harder than it
+should be. OPTIMADE exists to remove that barrier.
 
-## How to cite OPTIMADE
+## Get involved    {#get-involved}
 
-Should you wish to cite the OPTIMADE specification, please use the following:
+Everyone is welcome. We meet online roughly once a month, and we would like to
+help you create and register your own OPTIMADE API implementation.
 
-- Evans *et al*, Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange, *Digital Discovery* (2024) [10.1039/D4DD00039K](https://doi.org/10.1039/D4DD00039K){:target="_blank"} (preprint: [10.48550/arXiv.2402.0057](https://doi.org/10.48550/arXiv.2402.00572){:target="_blank"})
-- Andersen *et al*, OPTIMADE, an API for exchanging materials data, *Sci.  Data* **8**, 217 (2021) [10.1038/s41597-021-00974-z](https://doi.org/10.1038/s41597-021-00974-z){:target="_blank"}
-- Andersen *et al*, The OPTIMADE Specification, *Zenodo*, [10.5281/zenodo.4195050](https://doi.org/10.5281/zenodo.4195050){:target="_blank"}
+> The next meeting will take place on {% include {{ page.next_meeting }} %} on [Jitsi](https://meet.jit.si/OPTIMADE){:target="_blank"}
 
-If you use the `optimade-python-tools` to access or serve OPTIMADE APIs, please consider citing the following:
-
-- Evans *et al*, optimade-python-tools: A Python library for serving and consuming materials data via OPTIMADE APIs, *Journal of Open Source Software*, **6** (65), 3458 (2021), [10.21105/joss.03458](https://doi.org/10.21105/joss.03458)
-
-## Get involved
-
-All of our work is openly available under the [Materials-Consortia](https://github.com/Materials-Consortia/){:target="_blank"} organization on GitHub and we welcome all contributions.
-
-We would love to help you create and register your own OPTIMADE API implementations and hear your feedback on the specification.
-We meet monthly [Jitsi](https://meet.jit.si) (join with the room code `OPTIMADE`); everyone is welcome to join the discussion, please feel free to reach out on the mailing list
-`dev[at]optimade.org` to register your interest.
-
-The next meeting will take place on {% include {{ page.next_meeting }} %}
-
-Besides GitHub, we use a Slack workspace for day-to-day developer communication.
-We do not publish an open invite link, because these expire silently; write to `dev[at]optimade.org` and we will add you.
-
-With the support of [CECAM](https://www.cecam.org){:target="_blank"}, we hold [annual workshops](https://www.cecam.org/search#stq=%22Open%20Databases%20Integration%20for%20Materials%20Design%22&stp=1){:target="_blank"} to discuss and develop the specification and related ideas.
-
-**OMDI2021**: Related to the central OPTIMADE efforts, the *Workshop on Ontologies for Materials-Databases Interoperability 2021* was held at Linköping University, Sweden on **October 5-7, 2021**.
-To read more about **OMDI2021** go to [the workshop site](https://www.optimade.org/omdi2021/){:target="_blank"} or the [Linköping University event site](https://liu.se/en/research/omdi2021){:target="_blank"}.
+The [community]({{ '/community' | relative_url }}) page says which channel to use
+for what, and how to ask for access to our Slack workspace. The most recent
+OPTIMADE CECAM workshop was held on the campus of the University Grenoble Alpes,
+June 29 – July 3 2026; all of our workshops are listed on the
+[events]({{ '/events' | relative_url }}) page.

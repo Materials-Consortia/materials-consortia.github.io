@@ -30,6 +30,30 @@ img {
   -ms-box-shadow: 0 0 0px #ffffff;
 }
 
+/* The theme gives `pre` an overflow context but not `table`. A table wider than
+   the screen used to push the whole document sideways on a phone; let it scroll
+   inside its own box instead. `fit-content` keeps narrow tables narrow, and
+   tables centred with automatic margins (the counter) still centred. */
+table {
+  display: block;
+  width: -webkit-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Inline code can be a single long unbreakable token, such as a list of
+   response fields, which otherwise runs off the side of the page. Code inside
+   `pre` keeps its own line breaks and scrolls, so it is left alone. */
+code {
+  overflow-wrap: break-word;
+}
+
+pre code {
+  overflow-wrap: normal;
+}
+
 .menu {
   position: relative;
   margin: 0 auto;

@@ -16,3 +16,17 @@ defaults:
       path: ""
     values:
       image: "/assets/images/logos/optimade-text-right-white-bg.png"
+# Setting exclude replaces Jekyll 3's defaults rather than adding to them, so
+# they are repeated here.
+exclude:
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Dockerfile
