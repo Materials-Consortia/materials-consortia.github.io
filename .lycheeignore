@@ -10,5 +10,3 @@
 
 # Timeanddate rejects bots with 403
 ^https://www.timeanddate.com/
-
-  
