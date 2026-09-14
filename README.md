@@ -28,6 +28,16 @@ Finally serve the website with:
 bundle exec jekyll serve
 ```
 
+Alternatively, with Docker and no local Ruby:
+
+```console
+docker build -t optimade-site .
+docker run --rm -it -u "$(id -u):$(id -g)" -p 4000:4000 -p 35729:35729 \
+  -v "$PWD":/srv/jekyll optimade-site
+```
+
+and open <http://localhost:4000>. Rebuild the image if the `Gemfile` changes.
+
 See [these instructions](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for more information.
 
 Every pull request also builds the site and uploads `_site/` as an artifact.
